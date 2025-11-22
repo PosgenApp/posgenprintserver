@@ -1,0 +1,6 @@
+{
+  "port": 8181,
+  "defaultPrinterIp": "192.168.1.100",
+  "defaultPrinterPort": 9100
+}
+

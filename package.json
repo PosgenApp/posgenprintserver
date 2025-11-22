@@ -1,0 +1,22 @@
+{
+  "name": "posgen-local-print-service",
+  "version": "1.0.0",
+  "description": "Local WebSocket print service for Posgen - free alternative to QZ Tray",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:bun": "bun run index.js",
+    "dev": "node --watch index.js",
+    "dev:bun": "bun --watch index.js",
+    "build": "bun build index.js --compile --outfile posgenprintservice.exe",
+    "build-installer": "powershell -ExecutionPolicy Bypass -File build-installer.ps1"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
