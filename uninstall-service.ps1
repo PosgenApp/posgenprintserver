@@ -25,3 +25,5 @@ Write-Host "Removing service..." -ForegroundColor Yellow
 
 Write-Host "Service uninstalled successfully!" -ForegroundColor Green
 
+
+

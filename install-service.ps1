@@ -48,3 +48,5 @@ Start-Service -Name $serviceName
 Write-Host "Service is running!" -ForegroundColor Green
 Write-Host "You can manage it with: Get-Service $serviceName" -ForegroundColor Cyan
 
+
+

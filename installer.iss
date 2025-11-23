@@ -74,3 +74,5 @@ end;
 [UninstallDelete]
 Type: files; Name: "{app}\config.json"
 
+
+
